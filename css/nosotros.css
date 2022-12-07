@@ -1,0 +1,83 @@
+
+.nosotros{
+    margin-top: 150px;
+}
+.holis{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+}
+.logo img{
+    height: 400px;
+}
+.logotipo{
+    height: 100%;
+    display: flex;
+}
+.logotipo img{
+    height: 100%;
+    object-fit: contain;
+}
+.magensegura{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+}
+.magensegura .imagen{
+    width: 50%;
+}
+.magensegura .imagen img{
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.contorno{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+}
+.contorno .imagenes{
+    width: 50%;
+}
+.contorno .imagenes img{
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width:800px) {
+    .contorno .imagen{
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .doos .magensegura .imagen{
+        height: 500px;
+        width: 100%;
+        object-fit: contain;
+        padding: 0%;
+    }
+    .tres .contorno .imagenes{
+        height: 500px;
+        width: 100%;
+        object-fit: contain;
+        padding: 0%;
+    }
+}

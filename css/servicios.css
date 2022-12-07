@@ -1,0 +1,55 @@
+.carrito{
+    border: 0;
+    background-color: red;
+    position: fixed;
+    top: 200px;
+    right: -10%;
+    border-radius: 25px;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+    color: white;
+}
+.carrito i{
+    
+    font-size: 2em;
+}
+.carro{
+    z-index: 99999999999999999999999999999;
+}
+.funcionador{
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.2em;
+    border: 0px;
+}
+.funcionadordos{
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.2em;
+    border: 0px;
+    background-color: red;
+    margin: auto;
+    width: 100px;
+}
+.enviawa{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+@media screen and (max-width:900px) {
+    .carrito{
+        width: 150px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .carrito{
+        width: 120px;
+    }
+}

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu fiesta</title>
+
+    <link rel="icon" href="img/iconos/favicon.png">
+
+
+    <!------------------------------ LINK CSS------------------------------->
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/planes.css">
+
+
+    <!----------------------------- SCRIPT JS ----------------------------->
+    <script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/483b2e5638.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!----------------------------------- BARRA DE NAVEGACION INICIAL ----------------------------------->
+
+<nav class="inicio" id="Inicio">
+    <ul>
+        <div class="izq">
+            <li><a href=""><i class="fa-brands fa-whatsapp"></i> Telefono: 3105138584</a></li>
+        </div>
+        <div class="der">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#Contactos">Contacto</a></li>
+        </div>
+    </ul>
+</nav>
+
+<!----------------------------------- BARRA DE NAVEGACION GENERAL ----------------------------------->
+
+
+
+
+
+<!--------------------------------------------- SLIDER --------------------------------------------->
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <nav class="navbar navbar-expand-lg">
+        <div class="barra container-fluid">
+            <div class="logo">
+              <picture class="logotipo">
+                <source media="(min-width: 800px)" srcset="img/iconos/logo-horizontal.png">
+                <img src="img/iconos/logo-final.png" alt="" class="wd-20">
+              </picture>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" href="ventana.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-4" href="#Contactos">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  </div>
+
+
+
+
+
+
+<!------------------------------------------- GALERIA ------------------------------------------->
+
+<section class="galeria">
+  <div class="ordenes row m-auto">
+
+
+    <!-- Button trigger modal tercermodal-->
+    <figure type="button" class="btn col-lg-3 col-md-5 col-sm-12 figura galeria-marco-img" data-bs-toggle="modal" data-bs-target="#primer-modal">
+      <div class="coro"><img src="img/galeria/eventos-infantiles.jpg"></div>
+      <figcaption class="textooos">Plan Básico</figcaption>
+    </figure>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="primer-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Plan Básico</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img src="img/galeria/eventos-infantiles.jpg">
+          <figcaption>
+            Si la celebración cuenta con pocos invitados, este plan es para ti. ya que hará de tu evento algo divertido y especial
+            Este plan incluye:
+            <br>
+            *Un recreador profesional
+            <br>
+            *Recreación dirigida con rondas infantiles
+            <br> 
+            *Taller lúdico de payasito 
+            <br>
+            *Pintacaritas
+            <br>
+            *25 Bombas mil figuras 
+            <br>
+            *Dos horas de servicio
+
+
+            <p>$150,000</p>
+          </figcaption>
+      </div>
+      <div class="modal-footer">
+        <button class="bg-primary funcionador" onclick="add('Plan Básico')">Agregar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+    <!-- Button trigger modal tercermodal-->
+    <figure type="button" class="btn col-lg-3 col-md-5 col-sm-12 figura galeria-marco-img" data-bs-toggle="modal" data-bs-target="#segundo-modal">
+      <div class="coro"><img src="img/galeria/fiesta-neon.jpg"></div>
+      <figcaption class="textooos">Plan Neón</figcaption>
+    </figure>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="segundo-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Plan Neón</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img src="img/galeria/fiesta-neon.jpg">
+          <figcaption>
+            Planes para aquellos pre adolescentes y adolescentes que buscan actividades acordes a su edad. Acompañados de actividades de baile y de competencia tendrán la mejor tarde al lado de sus amigos.
+            Este plan incluye:
+            <br>
+            *Dos recreador profesional
+            <br>
+            *Recreación dirigida con competencias divertidas
+            <br> 
+            *Manillas, corbatas y sombreros neones
+            <br>
+            *Dos horas de servicio
+            <br>
+            *Sonido
+            <br>
+            *Maquina de humo
+
+            <p>$270,000</p>
+          </figcaption>
+      </div>
+      <div class="modal-footer">
+        <button class="bg-primary funcionador" onclick="add('Plan Neón')">Agregar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Button trigger modal tercermodal-->
+    <figure type="button" class="btn col-lg-3 col-md-5 col-sm-12 figura galeria-marco-img" data-bs-toggle="modal" data-bs-target="#tercer-modal">
+      <div class="coro"><img src="img/galeria/magia.jpg"></div>
+      <figcaption class="textooos">Plan Magico</figcaption>
+    </figure>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="tercer-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Plan Magico</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img src="img/galeria/magia.jpg">
+          <figcaption>
+            ¡Para que todos los invitados recuerden tu fiesta de lo genial que fue! Este plan fuera de lo tradicional!
+            Este plan cubre 4 horas de eventos he incluye: 
+            <br>
+            *Dos recreadores 
+            <br> 
+            *Payasos
+            <br>
+            *Magia comica 
+            <br>
+            *Rumba aerobica
+            <br>
+            *PIntacaritas 
+      
+            <p>$230,000</p>
+          </figcaption>
+      </div>
+      <div class="modal-footer">
+        <button class="bg-primary funcionador" onclick="add('Plan Magico')">Agregar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Button trigger modal tercermodal-->
+    <figure type="button" class="btn col-lg-3 col-md-5 col-sm-12 figura galeria-marco-img mt-5 mb-5" data-bs-toggle="modal" data-bs-target="#cuarto-modal">
+      <div class="coro"><img src="img/galeria/titeres.jpg"></div>
+      <figcaption class="textooos">Plan Titeres</figcaption>
+    </figure>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="cuarto-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Plan Titeres</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img src="img/galeria/titeres.jpg">
+          <figcaption>
+            Este show de títeres gigantes cuenta con personajes como beto, enrique, aurelio, una bruja y más. Escoge los que mas te gustan y esperalos en tu fiesta.
+            <br>
+            Este plan incluye:
+            <br>
+            *Dos recreadores
+            <br>
+            *Sonido
+            <br>
+            *Hora loca
+            <br>
+            *Show de Titeres
+            <br>
+            *Show de magia
+
+            <p>$260.000</p>
+          </figcaption>
+      </div>
+      <div class="modal-footer">
+        <button class="bg-primary funcionador" onclick="add('Plan Titeres')">Agregar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Button trigger modal tercermodal-->
+    <figure type="button" class="btn col-lg-3 col-md-5 col-sm-12 figura galeria-marco-img mt-5 mb-5" data-bs-toggle="modal" data-bs-target="#quinto-modal">
+      <div class="coro"><img src="img/galeria/pintacaritas.jpg"></div>
+      <figcaption class="textooos">Plan Cómico</figcaption>
+    </figure>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="quinto-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Plan Cómico</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img src="img/galeria/pintacaritas.jpg">
+          <figcaption>
+            Para pasar un rato agradable te recomendamos este plan, donde encontraras diversión a través de la enseñanza
+            Este plan infantil incluye:
+            <br>
+            *Cuatro horas de servicio 
+            <br>
+            *Dos recreadores profesionales
+            <br>
+            *Show de títeres tradicionales de temática con moraleja
+            <br>
+            *Show o taller de payaso cómico
+            <br>
+            *Pintacaritas 
+            <br>
+            *Show de magia cómica 
+            <br>
+            *25 bombas mil figuras 
+
+            <p>$200.000</p>
+          </figcaption>
+      </div>
+      <div class="modal-footer">
+        <button class="bg-primary funcionador" onclick="add('Plan Cómico')">Agregar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Button trigger modal tercermodal-->
+    <figure type="button" class="btn col-lg-3 col-md-5 col-sm-12 figura galeria-marco-img mt-5 mb-5" data-bs-toggle="modal" data-bs-target="#sexto-modal">
+      <div class="coro"><img src="img/galeria/sonido.jpg"></div>
+      <figcaption class="textooos">Plan Músico</figcaption>
+    </figure>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="sexto-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Plan Músico</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img src="img/galeria/sonido.jpg">
+          <figcaption>
+              Este plan es perfecto para tu evento, te divertiras, bailaras y jugaras, no pararas de reir ni de pasartela 
+              <br>
+              Este plan incluye:
+              <br>
+              *Cuatro horas de servicio.
+              <br>
+              *Dos recreadores. 
+              <br>
+              *Show de títeres gigantes.
+              <br>
+              *Show de payasos.
+              <br>
+              *Pintacaritas.
+              <br>
+              *Magia cómica.
+              <br>
+              *25 bombas mil figuras.
+              <br>
+              *Decoración básica de temática infantil 
+              <br>
+              *cabina de sonido
+
+              <p>$340.000</p>
+          </figcaption>
+      </div>
+      <div class="modal-footer">
+        <button class="bg-primary funcionador" onclick="add('Plan Músico')">Agregar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    
+  </div>
+
+</section>
+
+
+<!----------------------------------------- FORMULARIO ----------------------------------------->
+
+<section id="Contactos">
+  <div class="partecuatro">
+    <h1>Contactos</h1>
+    <p>¡Hola! Puedes contactarnos por cualquiera de nuestras redes sociales o si gustas por este medio, solo tendras que llenar los espacios del formulario colocando tu nombre, tu correo, una descripción y un mensaje en donde nos comentaras en que necesitas nuestros servicios, ten por seguro que te contestara un asesor de ventas lo más pronto posible.
+      <br>
+      <strong>¡Cuidate!</strong> 
+    </p>
+
+    <form action="" class="row">
+      <div class="formulario col-12">
+        <div class="inputs col-lg-6 col-md-12">
+          <input type="text" required placeholder="Nombre" class="esquina">
+          <br>
+          <br>
+          <input type="email" required placeholder="Email" class="esquina"> 
+          <br>
+          <br>
+          <input type="text" required placeholder="Descripción" class="esquina">
+
+          <br>
+          <br>
+        </div>
+
+        <div class="textarea col-lg-6 col-md-12">
+          <textarea name="" id="" required placeholder="Mensaje" cols="1000" rows="8" class=""></textarea>
+
+          <div class="enviar w-100">
+            <button onclick="alert(mensaje)" class=""><img src=""> Enviar!</button>
+          </div>
+        </div>
+          
+          
+      </div>
+      <div class="texto col-12">
+        <div class="parrefos col-lg-6 col-md-12">
+          <p class="datoscontactos"><i class="fa-sharp fa-solid fa-phone"></i> Telefonos</p>
+        <p class="datoscontactos">
+          <i class="fa-sharp fa-solid fa-mobile-screen-button"></i> (+57) 3105138584
+          <br>
+          <i class="fa-sharp fa-solid fa-mobile-screen-button"></i> (+57) 3105138584
+          <br>
+          <i class="fa-sharp fa-solid fa-mobile-screen-button"></i> (+57) 3105138584
+        </p>
+        </div>
+
+        <div class="redes col-lg-6 col-md-12">
+          <a href=""><i class="fa-brands fa-instagram"></i><img src="" alt=""></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a><img src="" alt=""></a>
+          <a href=""><i class="fa-brands fa-facebook"></i><img src="" alt=""></a>
+        </div>
+      </div>
+    </form>
+    
+   
+</div>
+</section>
+
+
+<!-------------------------------------------- FOOTER -------------------------------------------->
+
+<footer>
+  <div class="contenido">
+    <p class="derecha">Llegaste al final de nuestra página, esperamos que te haya gustado
+      <br>
+      <br>
+      Telefono: 3105138584
+    </p>
+    <p class="izquierda">Realizado por <br><strong>Daniel Avendaño <time>Noviembre 2022</time></strong>
+    <br>
+  </div>
+
+</footer>
+
+
+<div class="boton">
+  <a href="" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+</div>
+
+<button class="carrito" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+  <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+ </button>
+ 
+ <div class="offcanvas offcanvas-end carro" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+   <div class="offcanvas-header">
+     <h5 class="offcanvas-title" id="staticBackdropLabel">Carrito</h5>
+     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+   </div>
+   <div class="offcanvas-body">
+
+            
+    <h2>Lista de Shows</h2>
+     <div id="lista_de_carrito" class="w-100 px-2 my-3">
+      <p>Antes de que empieces a cotizar los servicios tienes que tener en cuenta que por un solo servicio cuesta 150.000 pero si quieres generar tu propio plan los valores a la hora de cotizar van a cambiar. Te deseo suerte en tu investigación divertida.
+      </p>
+       
+   </div>
+   <div class="enviawa">
+       <button class="funcionadordos" type="button" target="_blank" onclick="openwin()">
+           Cotizar
+          </button>
+   </div>
+ </div>
+
+</body>
+</html>
+
+<script>
+    
+     
+  let item = "";
+
+ let listado_array = [];
+ function add(x){
+         
+         item = " • " + x + " ";
+         
+
+         listado_array.push(item);
+         // vaciar la lista
+         document.getElementById("lista_de_carrito").innerHTML = "";
+ 
+
+          for(var i = 0; i < listado_array.length;i++ ){
+            
+              document.getElementById("lista_de_carrito").innerHTML += listado_array[i];
+              document.getElementById("lista_de_carrito").innerHTML += "<br>";
+          }
+         //MSM AGREGADO
+         alert("Producto " + x + " agregado al carrito exitosamente");
+        
+     }
+
+      //MSM ENCABEZADO Y NUMERO DE WASA
+ let wame = "https://wa.me/573105138584?text= Hola, estoy interasad@ en el siguiente plan, me gustaria saber cuanto costarian y beneficios que tiene la recreacion con lo shows que estan a continuación: ";
+
+ function openwin(){
+     let mensaje =  document.getElementById("lista_de_carrito").textContent;
+     wame+= mensaje;
+     alert(wame);
+      window.open(wame);
+ }
+
+
+</script>

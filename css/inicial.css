@@ -1,0 +1,27 @@
+.fondo{
+    background-image: url(../img/fondos/fondo.ventana.webp);
+}
+.botonitos{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: auto;
+}
+.botonitos a{
+   margin-bottom: 30px;
+    font-family: "titulos";
+    font-size: 4em;
+    border: 2px solid black;
+    border-radius: 70px;
+    padding: 100px 0px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.botonitos a:hover{
+    transform: scale(1.3);
+}
+
